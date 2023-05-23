@@ -1,0 +1,29 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top{
+    background-color: #222222;
+    color: #f3f3f3;
+}
+
+.top p{
+    display: inline;
+    padding-left: 90px;
+}
+
+.top ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    
+}
+
+.top li{
+    float: right;
+    padding-right: 52px;
+}
+
