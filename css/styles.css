@@ -146,15 +146,30 @@ footer>img{
     color: #3C2313;
 }
 
+.featured img{
+    margin-bottom: 0;
+}
+
+.featured h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 .featured>p{
     color: #666666;
-
+    margin-top: 20px;
+    padding-top: 0;
 }
 
 .product{
     background: #FBFAF6;
     display: inline-block;
     text-align: center;
+    margin-right: 20px;
 }
 
 .product h4{
