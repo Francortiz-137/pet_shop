@@ -1,12 +1,98 @@
 
 body{
+    height: 100%;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    margin: 0;
+}
+
+main{
+    margin: 0;
+}
+
+
+.banner{
+    background-image: url("../img/bowl.png");
+    background-color: #cccccc;
+    margin-top: 0;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    display: flex;    
+
+    padding: 10%;
+}
+
+.banner-content{
+    display: inline;
+    margin-left: 70%;
+}
+
+.banner h1{
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.banner button{
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    
+    
+}
+
+.nav{
+    background-color: #F0A83E;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    
+}
+
+.nav li{
+    float: right;
+    padding-right: 52px;
+}
+
 
 .top{
     background-color: #222222;
     color: #f3f3f3;
 }
+
 
 .top p{
     display: inline;
