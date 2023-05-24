@@ -13,13 +13,53 @@ main{
     margin: 0;
 }
 
+footer{
+    padding-top: 20px;
+    background-color: #3C2313;
+    color: white;
+}
+
+footer ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+footer li{
+    margin-bottom: 50px;
+}
+
+footer h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+footer span{
+    color: #8A8787;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+footer>img{
+    float: right;
+    margin-top: 130px;
+    margin-right: 74px;
+}
+
+.footer-icon{
+    float: left;
+    margin-left: 70px;
+    margin-right: 25px;
+}
 
 .banner{
     background-image: url("../img/bowl.png");
     background-color: #cccccc;
     margin-top: 0;
 
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -120,5 +160,13 @@ main{
 .top li{
     float: right;
     padding-right: 52px;
+}
+
+.bottom{
+    background-color: #222222;
+    color: #f3f3f3;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 25px;
 }
 
