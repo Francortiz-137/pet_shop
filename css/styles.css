@@ -65,12 +65,21 @@ main{
     
 }
 
+.paw-icon {
+    background: url('../img/pawprint.svg');
+    height: 20px;
+    width: 20px;
+    display: inline-flex;
+    background-size: cover;
+}
+
 .nav{
     background-color: #F0A83E;
     color: #ffffff;
     margin-bottom: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 90px;
 }
 
 .nav ul{
@@ -79,11 +88,12 @@ main{
     padding: 0;
     overflow: hidden;
     display: inline;
+    float: right;
     
 }
 
 .nav li{
-    float: right;
+    float: left;
     padding-right: 52px;
 }
 
