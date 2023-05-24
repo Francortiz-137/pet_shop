@@ -111,6 +111,13 @@ footer>img{
     display: inline-flex;
     background-size: cover;
 }
+.email-icon{
+    background: url('../img/SendEmail.svg');
+    height: 27px;
+    width: 35px;
+    display: inline-flex;
+    background-size: cover;
+}
 
 .nav{
     background-color: #F0A83E;
@@ -136,6 +143,36 @@ footer>img{
     padding-right: 52px;
 }
 
+.send-email{
+    display: inline;
+    float: right;
+    margin-right: 47px;
+}
+
+.subscribe{
+    background-color: #F0A83E;
+    color: white;
+    padding: 20px;
+}
+
+.subscribe input{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 271px;
+}
+
+.subscribe h2{
+    display: inline;
+}
+
+.subscribe button{
+    background-color: #3C2313;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
 
 .top{
     background-color: #222222;
