@@ -308,6 +308,10 @@ nav li + li {
 
 @media (max-width:420px) {
 
+    .banner{
+        background-position: left;
+    }
+
     .banner div{
         align-items: flex-end;
     } 
@@ -355,4 +359,6 @@ nav li + li {
     .top{
         display:none;
     }
+
+
 }
