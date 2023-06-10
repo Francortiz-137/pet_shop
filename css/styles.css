@@ -301,6 +301,10 @@ nav li + li {
     padding: 10px;
 }
 
+.hamburguesa{
+    display: none;
+}
+
 
 @media (max-width:420px) {
 
@@ -329,6 +333,11 @@ nav li + li {
         flex-direction: column-reverse;
         align-items: center;
     }
+
+    .hamburguesa{
+        display: inline-block;
+        align-self: center;
+    }
     
     .subscribe{
         flex-direction: column;
@@ -342,6 +351,7 @@ nav li + li {
     .send-button{
         width: 46vw;
     }
+    
     .top{
         display:none;
     }
