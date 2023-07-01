@@ -1,0 +1,58 @@
+
+@media (max-width:420px) {
+
+    .banner{
+        background-position: left;
+    }
+
+    .banner div{
+        align-items: flex-end;
+    } 
+
+    nav ul{
+        display: none;
+    }
+
+    .featured{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: nowrap;
+    }
+
+    .featured div.products{
+        flex-direction: column;
+    }
+
+    footer>div{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .hamburguesa{
+        display: inline-block;
+        align-self: center;
+        font-size: 2rem;
+    }
+    
+    .subscribe{
+        flex-direction: column;
+    }
+    .send-email{
+        display: flex;
+    }
+    .reset-button{
+        width: 46vw;
+    }
+    .send-button{
+        width: 46vw;
+    }
+    
+    .top{
+        display:none;
+    }
+
+
+}
